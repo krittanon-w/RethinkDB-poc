@@ -1,0 +1,20 @@
+
+
+version: '3'
+
+services:
+  rethink-db:
+    image: rethinkdb:2.3.6
+    ports:
+      - 28015:28015
+      - 8080:8080
+  nodejs-backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    ports:
+      - 3000:3000
+    depends_on:
+      - rethink-db
+    links:
+      - "rethink-db"

@@ -1,0 +1,19 @@
+{
+  "name": "rethinkdb-poc",
+  "version": "1.0.0",
+  "description": "Ten-minute guide with RethinkDB and JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krittanon-w/RethinkDB-poc.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/krittanon-w/RethinkDB-poc/issues"
+  },
+  "homepage": "https://github.com/krittanon-w/RethinkDB-poc#readme"
+}
